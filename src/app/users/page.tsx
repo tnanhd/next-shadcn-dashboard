@@ -106,7 +106,7 @@ const data: Payment[] = [
   },
 ];
 
-export const columns: ColumnDef<Payment>[] = [
+const columns: ColumnDef<Payment>[] = [
   {
     accessorKey: "name",
     header: "Name",

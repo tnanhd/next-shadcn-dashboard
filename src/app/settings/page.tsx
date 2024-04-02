@@ -11,7 +11,7 @@ export type Setting = {
   value: string | number | boolean;
 };
 
-export const columns: ColumnDef<Setting>[] = [
+const columns: ColumnDef<Setting>[] = [
   {
     accessorKey: "category",
     header: "Category",

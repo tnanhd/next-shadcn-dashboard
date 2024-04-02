@@ -14,7 +14,7 @@ export type Payment = {
   method: string;
 };
 
-export const columns: ColumnDef<Payment>[] = [
+const columns: ColumnDef<Payment>[] = [
   {
     accessorKey: "order",
     header: "Order",
